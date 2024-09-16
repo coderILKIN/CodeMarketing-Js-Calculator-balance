@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 600px;
+    margin: 50px auto;
+    /* background-color: red; */
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 10px 0px;
+}
+
+form .top{
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+}
+
+form .input-nb{
+    width: 40%;
+    padding: 12px 20px;
+}
+
+
+form .add-btn{
+    padding: 12px 20px;
+    min-width: 195px;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+form .bottom{
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+}
+
+form .todoList{
+    margin-top: 20px;
+}
+form .todoList li{
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+    padding: 16px 20px;
+    list-style: none;
+    color: white;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+}
+
+
+.todoList button{
+    padding: 16px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.balance {
+    display: flex;
+    justify-content: end;
+    /* border: 2px solid; */
+    /* display: inline-block; */
+}
+
